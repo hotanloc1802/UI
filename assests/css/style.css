@@ -1,0 +1,966 @@
+.header {
+    width: 100%; 
+    height: 60px; 
+    padding: 0 20px; 
+    display: flex; 
+    align-items: center; 
+    color: black; 
+    opacity: 1; 
+}
+.wrapper{
+    width: 150px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.header-logo__img img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+}
+.header-nav{
+    width: 100%; 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.header-nav__item{
+    font-family: "Montserrat Alternates";
+    font-size: 15px;
+    margin-right: 20px; /* Khoảng cách giữa các items */
+    display: inline-block; /* Đảm bảo các mục hiển thị theo hàng ngang */
+    font-weight: bold;
+}
+.wrapper.header-searchbar{
+    margin-left: 50px;
+    margin-right: 0px;
+    height: 50%;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.1); /* Màu nền mờ (xám nhạt) */
+    border-radius: 20px; /* Bo tròn toàn bộ */
+    display: flex; /* Flexbox để căn chỉnh nội dung */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    padding: 0 15px; /* Khoảng cách bên trong */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Hiệu ứng đổ bóng */
+}
+.header-searchbar__img img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+    margin-left: -70px;
+}
+.wrapper.header-buy{
+    width: 50px;
+    margin-right: 0px;
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center; 
+    margin-left: 20px;
+    padding-left: 0; /* Xóa khoảng cách bên trái nếu có */
+}
+.header-buy__img img{
+    width: 50%; 
+    margin-left: 0px;
+    height: 30%;
+}
+.wrapper.header-signin {
+    margin-left: 0px;
+    height: auto ;
+    width: 150px;
+}
+.header-signin {
+    width: 100%; 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.header-signin__item1{
+    font-family: "Montserrat Alternates";
+    color: #D62D63;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.header-signin__item2{
+    font-family: "Montserrat Alternates";
+    color: Blue;
+    font-size: 15px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+.background-section1 {
+    width: 100%;
+    height: 900px;
+    background-image: url('../image/6eed20d739b26146e28502ec6b056bc2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative; /* Thiết lập vị trí tham chiếu */
+    z-index: 1; /* Đảm bảo nó nằm dưới .background-section2 */
+    margin-bottom: 0px;
+}
+/* Đặt CSS cho body-section1 */
+.body-section1 {
+    background-color: #F1CE52;
+    width: 100%;
+    height: 500px; /* Chiều cao section */
+    overflow: hidden; /* Không cho phép nội dung vượt ra ngoài */
+    display: flex; /* Để căn chỉnh nội dung bên trong */
+}
+
+/* Đặt CSS cho ảnh */
+.body-section1__img1 img {
+    margin-left: 0px;
+    width: 200px;
+    max-width: 100%; /* Đảm bảo ảnh không vượt quá chiều rộng của section */
+    max-height: 100%; /* Đảm bảo ảnh không vượt quá chiều cao của section */
+    object-fit: contain; /* Giữ nguyên tỷ lệ ảnh */
+}
+.body-section1__img2 img {
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 80px;
+    max-width: 100%; /* Đảm bảo ảnh không vượt quá chiều rộng của section */
+    max-height: 100%; /* Đảm bảo ảnh không vượt quá chiều cao của section */
+    object-fit: contain; /* Giữ nguyên tỷ lệ ảnh */
+}
+.body-section1__img3 img {
+    margin-top: 280px;
+    margin-right: 0px;
+    margin-left: -150px;
+    width: 300px;
+    max-width: 100%; /* Đảm bảo ảnh không vượt quá chiều rộng của section */
+    max-height: 100%; /* Đảm bảo ảnh không vượt quá chiều cao của section */
+    object-fit: contain; /* Giữ nguyên tỷ lệ ảnh */
+}
+.body-section1__img4 img {
+    margin-top: 50px;
+    margin-left: -50px;
+    width: 550px;
+    max-width: 100%; /* Đảm bảo ảnh không vượt quá chiều rộng của section */
+    max-height: 100%; /* Đảm bảo ảnh không vượt quá chiều cao của section */
+    object-fit: contain; /* Giữ nguyên tỷ lệ ảnh */
+}
+.body-section1__img5 img {
+    margin-top: 320px;
+    margin-left: 30px;
+    width: 80px;
+    max-width: 100%; /* Đảm bảo ảnh không vượt quá chiều rộng của section */
+    max-height: 100%; /* Đảm bảo ảnh không vượt quá chiều cao của section */
+    object-fit: contain; /* Giữ nguyên tỷ lệ ảnh */
+}
+.body-section1__img6 img {
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 150px;
+    max-width: 100%; /* Đảm bảo ảnh không vượt quá chiều rộng của section */
+    max-height: 100%; /* Đảm bảo ảnh không vượt quá chiều cao của section */
+    object-fit: contain; /* Giữ nguyên tỷ lệ ảnh */
+}
+.body-section1__img6 img {
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 150px;
+    max-width: 100%; /* Đảm bảo ảnh không vượt quá chiều rộng của section */
+    max-height: 100%; /* Đảm bảo ảnh không vượt quá chiều cao của section */
+    object-fit: contain; /* Giữ nguyên tỷ lệ ảnh */
+}
+/* Đặt cho body-section2 */
+.body-section2 {
+    width: 100%; /* Chiều rộng toàn bộ */
+    height: auto ; /* Chiều cao (có thể thay đổi theo nhu cầu) */
+    
+}
+
+/* Đặt cho ảnh */
+.body-section2__img7 img {
+    width: auto; /* Tự động điều chỉnh chiều rộng */
+    height: 100%; /* Chiều cao vừa khít với body-section2 */
+    max-width: 100%; /* Đảm bảo ảnh không vượt quá chiều rộng của section */
+    object-fit: cover; /* Đảm bảo ảnh phủ toàn bộ mà không bị méo */
+    background-color: #F1CE52;
+}
+.body-section2__img8 img {
+    width: 500px;
+    margin-top: -400px;
+    margin-left: 120px;
+}
+.body-section2__img9 img {
+    width: 180px;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+.store {
+    display: flex; /* Kích hoạt Flexbox */
+    justify-content: flex-start; /* Căn các phần tử con về phía trái */
+    align-items: flex-start; /* Căn các phần tử theo chiều dọc */
+    gap: 20px; /* Khoảng cách giữa các phần tử */
+    position: relative; 
+    margin-bottom: 20px;
+}
+.body-section2__img10 img {
+    width: 250px;
+    margin-left: 150px;
+    margin-top: 50px; 
+}
+.body-section2__img11 img {
+    width: 600px;
+    margin-left: 300px;
+    margin-top: -200px;
+}
+.section2__text2{
+    position: absolute; /* Đặt vị trí tuyệt đối */
+    top: -10%; /* Căn trên cùng */
+    left: 60%; /* Căn sát trái (nếu cần căn giữa, dùng thêm `left: 50%; transform: translateX(-50%);`) */
+    width: 350px ;
+    color: white;
+    font-family: "Montserrat Alternates";
+    font-size: 12px;
+}
+.section2__text1{
+    position: absolute; /* Đặt vị trí tuyệt đối */
+    top: -22%; /* Căn trên cùng */
+    left: 60%; /* Căn sát trái (nếu cần căn giữa, dùng thêm `left: 50%; transform: translateX(-50%);`) */
+    width: 350px ;
+    color: white;
+    font-family: "Montserrat Alternates";
+    font-size: 25px;
+}
+.store2 {
+    position: relative;
+    margin-bottom: 50px ;
+    width: 98%; /* Chiều rộng */
+    height: 380px; /* Chiều cao */
+    background-color: #D21F5C; /* Màu nền đỏ (bạn có thể thay đổi mã màu theo ý muốn) */
+    border-radius: 50px; /* Bo tròn góc */
+    margin: 0 auto; /* Căn giữa container theo chiều ngang */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Tùy chọn: Hiệu ứng đổ bóng */
+}
+.body-section2__img12 {
+    left: 43%;
+    position: absolute; 
+    width: 250px;
+}
+.body-section2__img13{
+    width: 150px;
+    position: absolute; 
+    top: 36%;
+    left: 30%;
+}
+.body-section2__img13text {
+    width: 350px;
+    position: absolute; 
+    top: 32%;
+    left: 12%;
+    color: white;
+    font-family: "Montserrat Alternates";
+    font-size: 40px;
+    font-weight: bold;
+}
+.body-section2__img14{
+    width: 150px;
+    position: absolute; 
+    top: 50%;
+    left: 12%;
+}
+.body-section2__img14text {
+    color:#F1CE52;
+    position: absolute; 
+    top: 52%;
+    left: 23%;
+    font-family: "Montserrat Alternates";
+}
+.body-section2__img15 {
+    width: 450px;
+    top: 5%;
+    left: 58%;
+    position: absolute; 
+}
+.body-section2__img15text {
+    width: 180px;
+    top: 60%;
+    left: 85%;
+    position: absolute; 
+    text-align: right;
+    font-family: "Montserrat Alternates";
+    font-weight: bold;
+    color: #EB96B1;
+}
+.body-section3 {
+    margin-top: 10px;
+    height: 1200px; /* Chiều cao của container */
+    position: relative; /* Làm tham chiếu cho các phần tử con */
+    overflow: hidden; /* Ngăn phần tử vượt ra ngoài container */
+    display: flex; /* Căn chỉnh nội dung */
+}
+
+.body-section3__img16 img {
+    max-width: 100%; /* Đảm bảo ảnh không vượt chiều rộng container */
+    max-height: 100%; /* Đảm bảo ảnh không vượt chiều cao container */
+    object-fit: contain; /* Giữ nguyên tỷ lệ ảnh và hiển thị đầy đủ */
+    display: block; /* Xóa khoảng cách mặc định của ảnh */
+}
+.body-section3__img16text {
+    position: absolute;
+    font-family: "Montserrat Alternates";
+    font-weight: bold;
+    color: black;
+    font-size: 40px;
+    left: 20.5%;
+    top: 10%;
+}
+.body-section3__img17 img {
+    position: absolute;
+    height: 400px;
+    left: 20%;
+    top: 18%;
+}
+.body-section3__img17text{
+    text-align:center;
+    position: absolute;
+    left: 25%;
+    top: 53%;
+}
+.body-section3__img17text1 {
+    font-family: "Montserrat Alternates";
+    font-size: 20px;
+
+}
+.body-section3__img17text2 {
+    font-family: "Montserrat Alternates";
+    font-size: 25px;
+    color: #2B643A;
+    font-weight: bold;
+}
+.body-section3__img18 img{
+    position: absolute;
+    height: 300px;
+    left: 45%;
+    top: 10%;
+}
+.body-section3__img18text{
+    text-align:center;
+    position: absolute;
+    left: 47%;
+    top: 35%;
+}
+.body-section3__img18text1 {
+    font-family: "Montserrat Alternates";
+    font-size: 16px;
+}
+.body-section3__img18text2 {
+    font-family: "Montserrat Alternates";
+    font-size: 20px;
+    color: #D62D63;
+    font-weight: bold;
+}
+.body-section3__img19 img{
+    position: absolute;
+    height: 280px;
+    left: 45%;
+    top: 42%;
+}
+.body-section3__img19text{
+    text-align:center;
+    position: absolute;
+    left: 49%;
+    top: 67%;
+}
+.body-section3__img19text1 {
+    font-family: "Montserrat Alternates";
+    font-size: 16px;
+}
+.body-section3__img19text2 {
+    font-family: "Montserrat Alternates";
+    font-size: 20px;
+    color: #D62D63;
+    font-weight: bold;
+}
+.body-section3__img20 img{
+    position: absolute;
+    height: 280px;
+    width: 180px;
+    left: 65%;
+    top: 9%;
+}
+.body-section3__img20text{
+    text-align:center;
+    position: absolute;
+    left: 67%;
+    top: 35%;
+}
+.body-section3__img20text1 {
+    font-family: "Montserrat Alternates";
+    font-size: 16px;
+}
+.body-section3__img20text2 {
+    font-family: "Montserrat Alternates";
+    font-size: 20px;
+    color: #622363;
+    font-weight: bold;
+}
+.body-section3__img21 img{
+    position: absolute;
+    height: 280px;
+    width: 180px;
+    left: 65%;
+    top: 42%;
+}
+.body-section3__img21text{
+    text-align:center;
+    position: absolute;
+    left: 67%;
+    top: 67%;
+}
+.body-section3__img21text1 {
+    font-family: "Montserrat Alternates";
+    font-size: 16px;
+}
+.body-section3__img21text2 {
+    font-family: "Montserrat Alternates";
+    font-size: 20px;
+    color: #243974;
+    font-weight: bold;
+}
+.body-section3__img22 img{
+    position: absolute;
+    height: 700px;
+    right: 0%;
+    top: 40%;
+}
+/* Container để căn chỉnh nếu cần */
+.button-container {
+    top: 58%;
+    left: 20%;
+    position: absolute;
+    font-family: "Montserrat Alternates";
+    font-weight: bold;
+    display: flex;
+    justify-content: center; /* Căn giữa nút theo chiều ngang */
+    align-items: center; /* Căn giữa nếu có nhiều nội dung */
+    height: 100px; /* Chiều cao container (có thể thay đổi) */
+}
+
+/* Định dạng nút */
+.custom-button {
+    background-color: transparent; /* Nền trong suốt */
+    color: #622363; /* Màu chữ tím */
+    border: 2px solid #F5A623; /* Viền vàng */
+    border-radius: 20px; /* Bo góc */
+    padding: 10px 20px; /* Khoảng cách bên trong */
+    font-size: 16px; /* Kích thước chữ */
+    font-family: "Arial", sans-serif; /* Kiểu chữ */
+    cursor: pointer; /* Con trỏ khi hover */
+    transition: all 0.3s ease; /* Hiệu ứng chuyển đổi */
+    text-transform: uppercase; /* Chữ in hoa (nếu cần) */
+}
+
+/* Hiệu ứng khi hover vào nút */
+.custom-button:hover {
+    background-color: #F5A623; /* Nền vàng nhạt khi hover */
+    color: white; /* Đổi màu chữ sang trắng khi hover */
+}
+.body-section4 {
+    margin-top: 10px;
+    height: 400px; /* Chiều cao của container */
+    position: relative; /* Làm tham chiếu cho các phần tử con */
+    display: flex; /* Căn chỉnh nội dung */
+}
+
+.body-section4__img23 img {
+    max-width: 100%; /* Đảm bảo ảnh không vượt chiều rộng container */
+    max-height: 100%; /* Đảm bảo ảnh không vượt chiều cao container */
+    object-fit: contain; /* Giữ nguyên tỷ lệ ảnh và hiển thị đầy đủ */
+    display: block; /* Xóa khoảng cách mặc định của ảnh */
+}
+.body-section3__img24 img{
+    position: absolute;
+    left: 40%;
+    height: 350px;
+    margin-top: -100px;
+}
+.body-section3__img24text {
+    font-weight: bold;
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    margin-top: 0px;
+    font-size: 30px;
+    left: 38.5%;
+    color: White;
+    font-family: "Montserrat Alternates";
+    text-align: center;
+}
+.body-section3__img25 img {
+    position: absolute;
+    height: 150px;
+    margin-top: -170px;
+    left: 25%;
+}
+.body-section3__img25text {
+    font-weight: bold;
+    position: absolute;
+    height: 150px;
+    margin-top: -110px;
+    font-size: 20px;
+    left: 26.5%;
+    color: #243974;
+    font-family: "Montserrat Alternates";
+}
+.body-section3__img26 img {
+    position: absolute;
+    height: 150px;
+    margin-top: 3%;
+    left: 18%;
+}
+.body-section3__img26text {
+    font-weight: bold;
+    position: absolute;
+    width: 70px;
+    height: 150px;
+    margin-top: 5.8%;
+    font-size: 20px;
+    left: 21%;
+    color: white;
+    font-family: "Montserrat Alternates";
+}
+.body-section3__img27 img {
+    position: absolute;
+    height: 150px;
+    margin-top: 15%;
+    left: 25%;
+}
+.body-section3__img27text {
+    font-weight: bold;
+    position: absolute;
+    width: 75px;
+    height: 150px;
+    margin-top: 18.3%;
+    font-size: 20px;
+    left: 28%;
+    color: white;
+    font-family: "Montserrat Alternates";
+    text-align: center;
+}
+.body-section3__img28 img {
+    position: absolute;
+    height: 100px;
+    margin-top: -170px;
+    right: 18%;
+}
+.body-section3__img28text {
+    font-weight: bold;
+    position: absolute;
+    height: 150px;
+    width: 70px;
+    margin-top: -145px;
+    font-size: 20px;
+    right: 20.5%;
+    color: white;
+    font-family: "Montserrat Alternates";
+    text-align: center;
+}
+.body-section3__img29 img {
+    position: absolute;
+    height: 100px;
+    margin-top: 3%;
+    right: 14%;
+}
+.body-section3__img29text {
+    font-weight: bold;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin-top: 5%;
+    font-size: 20px;
+    right: 14.5%;
+    color: white;
+    font-family: "Montserrat Alternates";
+}
+.body-section3__img30 img {
+    position: absolute;
+    height: 150px;
+    margin-top: 13%;
+    right: 19%;
+}
+.body-section3__img30text {
+    font-weight: bold;
+    position: absolute;
+    width: 50px;
+    height: 150px;
+    margin-top: 16.5%;
+    font-size: 20px;
+    right: 22.5%;
+    color: White;
+    font-family: "Montserrat Alternates";
+    text-align: center;
+}
+.button-container1 {
+    height: 80px;
+    top: 67%;
+    left: 43%;
+    position: absolute;
+    font-family: "Montserrat Alternates";
+    font-weight: bold;
+    display: flex;
+    justify-content: center; /* Căn giữa nút theo chiều ngang */
+    align-items: center; /* Căn giữa nếu có nhiều nội dung */
+    height: 100px; /* Chiều cao container (có thể thay đổi) */
+}
+.custom-button1 {
+    background-color: transparent; /* Nền trong suốt */
+    color: #D62D63; /* Màu chữ tím */
+    border: 2px solid #D62D63; /* Viền vàng */
+    border-radius: 20px; /* Bo góc */
+    padding: 10px 20px; /* Khoảng cách bên trong */
+    font-size: 16px; /* Kích thước chữ */
+    font-family: "Arial", sans-serif; /* Kiểu chữ */
+    cursor: pointer; /* Con trỏ khi hover */
+    transition: all 0.3s ease; /* Hiệu ứng chuyển đổi */
+    text-transform: uppercase; /* Chữ in hoa (nếu cần) */
+}
+
+/* Hiệu ứng khi hover vào nút */
+.custom-button1:hover {
+    background-color: #F5A623; /* Nền vàng nhạt khi hover */
+    color: white; /* Đổi màu chữ sang trắng khi hover */
+}
+.body-section5 {
+    position: relative;
+    margin-bottom: 50px ;
+    width: 98%; /* Chiều rộng */
+    height: 480px; /* Chiều cao */
+    background-color: #F1CE52; /* Màu nền đỏ (bạn có thể thay đổi mã màu theo ý muốn) */
+    border-radius: 50px; /* Bo tròn góc */
+    margin: 0 auto; /* Căn giữa container theo chiều ngang */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Tùy chọn: Hiệu ứng đổ bóng */
+}
+.body-section5__item1text {
+    font-family: "Montserrat Alternates";
+    font-size: 35px;
+    position: absolute;
+    left: 45%;
+    width: 250px;
+    text-align: center;
+    font-weight:bold ;
+    color: #243974;
+}
+.body-section5__img31 img {
+    position: absolute;
+    width: 150px;
+    right: 2%;
+    top: 5%;
+}
+.body-section5__img32 img {
+    position: absolute;
+    width: 200px;
+    left: 0%;
+    top: 25%;
+}
+.body-section5__img33 img {
+    position: absolute;
+    width: 350px;
+    left: 43%;
+    top: 88%;
+}
+.body-section5__img34 img {
+    position: absolute;
+    width: 100px;
+    right: 2%;
+    top: 25%;
+}
+.body-section5__img35 img {
+    position: absolute;
+    width: 350px;
+    right: 35%;
+    top: 25%;
+}
+.body-section5__img36 img {
+    position: absolute;
+    width: 280px;
+    right: 17.4%;
+    top: 30%;
+}
+.body-section5__img37 img {
+    position: absolute;
+    width: 280px;
+    left: 24.4%;
+    top: 30%;
+}
+/* Container của nút */
+.button-container3 {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+}
+
+/* Button chính */
+.triangle-button {
+    background-color: transparent; /* Nền trong suốt */
+    border: none; /* Loại bỏ viền */
+    display: flex;
+    gap: 0px; /* Khoảng cách giữa các tam giác */
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; /* Con trỏ chuyển thành tay khi hover */
+}
+
+/* Hình tam giác */
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent; /* Tăng độ rộng */
+    border-right: 15px solid transparent; /* Tăng độ rộng */
+    border-top: 30px solid #3F6F3F; /* Tăng chiều cao */
+    transform: rotate(-90deg); /* Xoay tam giác */
+}
+
+/* Hiệu ứng hover */
+.triangle-button:hover .triangle {
+    border-top-color: #2E572E; /* Đổi màu khi hover */
+}
+.button-container4 {
+    position: absolute;
+    top: 50%;
+    left: 12%;
+}
+
+/* Button chính */
+.triangle-button1 {
+    background-color: transparent; /* Nền trong suốt */
+    border: none; /* Loại bỏ viền */
+    display: flex;
+    gap: 0px; /* Khoảng cách giữa các tam giác */
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; /* Con trỏ chuyển thành tay khi hover */
+}
+.triangle1 {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent; /* Tăng độ rộng */
+    border-right: 15px solid transparent; /* Tăng độ rộng */
+    border-top: 30px solid #3F6F3F; /* Tăng chiều cao */
+    transform: rotate(-270deg); /* Xoay tam giác */
+}
+
+/* Hiệu ứng hover */
+.triangle-button:hover .triangle {
+    border-top-color: #2E572E; /* Đổi màu khi hover */
+}
+.body-section6 {
+    margin-top: 20px;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.body-section6__img38 img {
+    width: 70%;
+    position: absolute;
+    left: 16%;
+}
+.body-section6__img38text {
+    font-family: "Montserrat Alternates";
+    font-size: 28px;
+    position: absolute;
+    top: 35%;
+    left: 42%;
+    color: #D62D63;
+    font-weight: bold;
+    z-index: 1;
+}
+/* Container chính */
+.card-container{
+    width: 100%;
+}
+.card1  {
+    position: relative;
+    top: 50%;
+    left: 2.5%;
+    width: 450px; /* Độ rộng khung */
+    height: 300px;
+    background-color: #2E7D32; /* Màu nền xanh lá */
+    border-radius: 20px; /* Bo tròn góc */
+    padding: 30px; /* Padding bên trong khung */
+    display: flex;
+    flex-direction: column; /* Sắp xếp các phần tử theo chiều dọc */
+    align-items: center; /* Căn giữa các phần tử theo chiều ngang */
+    text-align: center; /* Căn giữa văn bản */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hiệu ứng đổ bóng */
+    margin: 0 auto; /* Căn giữa khung theo chiều ngang */
+    z-index: 2;
+}
+
+/* Ảnh hình tròn */
+.card-image img {
+    width: 120px; /* Kích thước ảnh */
+    height: 120px; /* Kích thước ảnh */
+    border-radius: 50%; /* Tạo hình tròn */
+    object-fit: cover; /* Giữ nguyên tỷ lệ ảnh */
+    border: 4px solid white; /* Viền trắng xung quanh ảnh */
+    margin-bottom: 20px; /* Khoảng cách dưới ảnh */
+}
+
+/* Tiêu đề */
+.card-title {
+    font-size: 18px; /* Kích thước chữ tiêu đề */
+    color: white; /* Màu chữ */
+    font-weight: bold; /* In đậm chữ */
+    margin-bottom: 10px; /* Khoảng cách dưới tiêu đề */
+    font-family: "Montserrat Alternates";
+}
+
+/* Văn bản */
+.card-text {
+    font-size: 13px; /* Kích thước chữ đoạn văn */
+    color: #F1F1F1; /* Màu chữ nhạt */
+    line-height: 1.6; /* Khoảng cách dòng */
+    font-family: "Montserrat Alternates";
+}
+/* Container chính */
+.card2  {
+    position: relative;
+    top: -23%;
+    left: 32.5%;
+    width: 450px; /* Độ rộng khung */
+    height: 280px;
+    background-color: #6A9275; /* Màu nền xanh lá */
+    border-radius: 20px; /* Bo tròn góc */
+    padding: 30px; /* Padding bên trong khung */
+    display: flex;
+    flex-direction: column; /* Sắp xếp các phần tử theo chiều dọc */
+    align-items: center; /* Căn giữa các phần tử theo chiều ngang */
+    text-align: center; /* Căn giữa văn bản */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hiệu ứng đổ bóng */
+    margin: 0 auto; /* Căn giữa khung theo chiều ngang */
+    z-index: 2;
+}
+.card3  {
+    position: relative;
+    top: -93%;
+    right: 27.5%;
+    width: 450px; /* Độ rộng khung */
+    height: 280px;
+    background-color: #6A9275; /* Màu nền xanh lá */
+    border-radius: 20px; /* Bo tròn góc */
+    padding: 30px; /* Padding bên trong khung */
+    display: flex;
+    flex-direction: column; /* Sắp xếp các phần tử theo chiều dọc */
+    align-items: center; /* Căn giữa các phần tử theo chiều ngang */
+    text-align: center; /* Căn giữa văn bản */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hiệu ứng đổ bóng */
+    margin: 0 auto; /* Căn giữa khung theo chiều ngang */
+    z-index: 2;
+}
+/* Container của các nút */
+.button-row {
+    position: absolute;
+    left: 48.5%;
+    top: 125%;
+    display: flex; /* Hiển thị các phần tử theo hàng ngang */
+    justify-content: center; /* Căn giữa các phần tử */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    gap: 20px; /* Khoảng cách giữa các nút */
+    height: 50px; /* Chiều cao của container */
+    z-index: 2;
+}
+
+/* Nút hình tròn */
+.circle {
+    width: 30px; /* Đường kính hình tròn */
+    height: 30px;
+    background-color: #c4c4c4; /* Màu xám nhạt */
+    border-radius: 50%; /* Tạo hình tròn */
+}
+
+/* Nút hình thoi */
+.diamond {
+    width: 30px;
+    height: 30px;
+    background-color: #D62D63; /* Màu đỏ */
+    transform: rotate(45deg); /* Xoay hình vuông để thành hình thoi */
+}
+/* Container chính */
+.footer-container {
+    width: 100%; /* Chiều rộng toàn màn hình */
+    margin-top: 280px;
+    padding: 20px 50px; /* Khoảng cách bên trong */
+    background-color: #243974; /* Màu nền xanh đậm */
+    border-radius: 20px; /* Bo góc cho container */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Hiệu ứng đổ bóng */
+    display: flex; /* Sử dụng Flexbox để căn chỉnh nội dung */
+    justify-content: space-between; /* Khoảng cách đều giữa các cột */
+    align-items: flex-start; /* Căn các phần tử theo chiều dọc */
+}
+
+/* Logo */
+.footer-logo img {
+    margin-top: 70px;
+    margin-right: 50px;
+    
+    width: 150px; /* Kích thước logo */
+    height: auto;
+}
+
+/* Các cột nội dung */
+.footer-columns {
+    display: flex;
+    flex: 1; /* Cột chiếm hết chiều ngang */
+    justify-content: space-between;
+    gap: 50px; /* Khoảng cách giữa các cột */
+}
+
+/* Cột */
+.footer-column {
+    color: white; /* Màu chữ */
+    flex: 1; /* Chia đều không gian giữa các cột */
+}
+
+/* Tiêu đề cột */
+.footer-column h3 {
+    font-family: "Montserrat Alternates";
+    width: 200px;
+    font-size: 23px; /* Kích thước chữ tiêu đề */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Danh sách */
+.footer-column ul {
+    list-style: none; /* Loại bỏ bullet */
+    padding: 0;
+    font-family: "Montserrat Alternates";
+}
+
+.footer-column ul li {
+    margin-bottom: 8px; /* Khoảng cách giữa các mục */
+    font-size: 14px;
+    font-family: "Montserrat Alternates";
+}
+
+/* Nút bấm */
+.subscribe-button {
+    margin-top: 10px;
+    background-color: #FFD700; /* Màu vàng */
+    color: #243974; /* Màu chữ xanh đậm */
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Đổ bóng cho nút */
+    transition: background-color 0.3s ease;
+}
+
+.subscribe-button:hover {
+    background-color: #E6C200; /* Đổi màu khi hover */
+}
